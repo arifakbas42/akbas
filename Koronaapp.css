@@ -6,14 +6,14 @@ body{
 
 .tittel{
     color:red;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 40px;
     background-color: white;
     border:15px solid white;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    margin-left: 600px;
+    margin-right: 600px;
+    width: 10%;
 
 }
 main
@@ -24,11 +24,9 @@ main
     grid-row-gap:5px;
     grid-auto-rows:minmax(60px,auto);
     text-align: center;
-    background-color:lightgrey;
-    border:15px solid lightgrey;
     border-radius: 150px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 150px;
+    margin-right: 150px;
 
 
 
@@ -56,26 +54,26 @@ article
   line-height:1,5px;
 }
 
-
-.bilder{
-  border:15px solid pink;
-  border-radius: 50px;
-  box-shadow:30px 20px 10px black;
-  height:50%;
-  margin:25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .tekst1{
-  text-align: center;
-  margin-right:500px;
-  margin-left:500px;
+  margin-right:100px;
+  margin-left:100px;
 }
 
 .tittel2{
-  margin-left: 500px;
+  margin-left: 200px;
   margin-top: 50px;
+}
+
+.tekst2{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+h2{
+  font-size:17px;
+  text-align:center;
+  padding:20px;
+  color:black;
+  box-shadow:7px 5px 3px black;
+  line-height:1,5px;
 }
